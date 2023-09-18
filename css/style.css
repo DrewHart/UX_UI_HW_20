@@ -16,6 +16,7 @@ header {
     z-index: 1;
     padding-left: 4px;
 }
+
 .logo {
     display: flex;
     object-fit: contain;
@@ -25,6 +26,7 @@ header {
     justify-self: left;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .logo img {
     transition: 1s;
     max-width: 100%;
@@ -32,9 +34,11 @@ header {
     height: 72px;
     display: inline-block;
 }
+
 .logo img:hover {
     transform: rotate(360deg);
 }
+
 .navbar {
     display: flex;
     flex-direction: row;
@@ -45,6 +49,7 @@ header {
     justify-content: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
 .navbar img {
     transition: 1s;
     max-width: 100%;
@@ -52,16 +57,38 @@ header {
     height: 72px;
     display: block;
 }
+
 .navbar img:hover {
     transform: rotate(360deg);
 }
+
 /*Start of main page*/
 body {
     background-color: #F4F0ED;
     padding-top: 88px;
 }
 
-.processimages{
-    display: flex !important;
+/*Title Cards*/
+.title {
+    text-align: center;
+    width: 66.25%;
+    margin: 1% auto 1% auto;
+    background-color: #F7DD72;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+/*Information Cards*/
+.bluecard {
+    text-align: center;
+    width: 66.25%;
+    margin: 1% auto 1% auto;
+    background-color: #949ABF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+}
+
+.processimages {
+    display: flex;
     flex-direction: row;
 }
